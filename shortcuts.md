@@ -1,3 +1,15 @@
+# Git
+
+`git checkout -b myfeature develop` Branch off from `develop` branch, switch to branch `myfeature`
+
+Merge work from `myfeature` into `develop` branch
+```
+git checkout develop
+git merge --no-ff myfeature
+git branch -d myfeature
+git push origin develop
+```
+
 # Vim
 
 ## Windows
