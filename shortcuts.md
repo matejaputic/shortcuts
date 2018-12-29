@@ -16,6 +16,10 @@ git push origin develop
 
 `zz` Center current line on screen
 
+`Ctrl + e` Move screen up without moving cursor
+
+`Ctrl + y` Move screen down without moving cursor
+
 ## Windows
 
 `Ctrl + w{h,j,k,l}` move focus to {left, lower, upper, right} split
