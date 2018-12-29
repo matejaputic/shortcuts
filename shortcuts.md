@@ -12,6 +12,10 @@ git push origin develop
 
 # Vim
 
+## Moving
+
+`zz` Center current line on screen
+
 ## Windows
 
 `Ctrl + w{h,j,k,l}` move focus to {left, lower, upper, right} split
