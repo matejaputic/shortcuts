@@ -27,3 +27,9 @@ git push origin develop
 `Ctrl + w=` Equalize split
 
 `Ctrl + wo` Close other windows
+
+# Conda
+
+`conda info --envs` View a list of environments
+
+`conda create --name myclone --clone myenv` Clone an environment
