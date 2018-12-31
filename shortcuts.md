@@ -33,3 +33,6 @@ git push origin develop
 `conda info --envs` View a list of environments
 
 `conda create --name myclone --clone myenv` Clone an environment
+
+`conda remove --name myenv --all` Remove an environment
+
