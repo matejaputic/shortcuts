@@ -28,6 +28,12 @@ git push origin develop
 
 `Ctrl + wo` Close other windows
 
+## Bookmarks
+
+`ma` Set position for mark `a`
+
+`\`a` Jump to location at mark `a`
+
 # Conda
 
 `conda info --envs` View a list of environments
