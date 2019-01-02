@@ -32,7 +32,7 @@ git push origin develop
 
 `ma` Set position for mark `a`
 
-`\`a` Jump to location at mark `a`
+`` `a`` Jump to location at mark `a`
 
 # Conda
 
