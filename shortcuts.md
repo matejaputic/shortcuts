@@ -9,6 +9,11 @@ git merge --no-ff myfeature
 git branch -d myfeature
 git push origin develop
 ```
+# Tmux
+
+`ls` List active sessions
+
+`a -t n -d` Attach to session number `n` and disconnect any other screens
 
 # Vim
 
