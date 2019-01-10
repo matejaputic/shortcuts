@@ -48,3 +48,9 @@ git push origin develop
 `conda remove --name myenv --all` Remove an environment
 
 `conda list --explicit` List packages installed in environment
+
+# System
+
+## GPU
+
+`fuser -v /dev/nvidia*` What process(es) are using the GPU?
