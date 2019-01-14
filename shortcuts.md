@@ -54,3 +54,9 @@ git push origin develop
 ## GPU
 
 `fuser -v /dev/nvidia*` What process(es) are using the GPU?
+
+## Rsync
+
+`# rsync -avzP –include ‘*.txt’ –exclude ‘*’ /home/user testuser@10.10.1.10:/data/user` Sync a local directory to a remote directory, with progress bar
+
+More at: https://linuxtechlab.com/start-with-rsync-command-8-rsync-examples/
