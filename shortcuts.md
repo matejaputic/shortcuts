@@ -9,6 +9,11 @@ git merge --no-ff myfeature
 git branch -d myfeature
 git push origin develop
 ```
+
+`git add -A` stage all changes
+
+`git add -u` stage modifications and deletions, without new files
+
 # Tmux
 
 `ls` List active sessions
