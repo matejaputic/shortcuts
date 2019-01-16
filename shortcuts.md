@@ -14,6 +14,8 @@ git push origin develop
 
 `git add -u` stage modifications and deletions, without new files
 
+`GIT_SSH_COMMAND="ssh -i ~/.ssh/id_rsa_example" <git command>` Specify identity file
+
 # Tmux
 
 `ls` List active sessions
