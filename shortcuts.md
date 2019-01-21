@@ -36,6 +36,8 @@ git push origin develop
 
 `Ctrl + w{h,j,k,l}` move focus to {left, lower, upper, right} split
 
+`:vsplit <another file>` Open another file in side-by-side split
+
 `Ctrl + w=` Equalize split
 
 `Ctrl + wo` Close other windows
