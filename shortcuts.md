@@ -56,7 +56,9 @@ git push origin develop
 
 `conda remove --name myenv --all` Remove an environment
 
-`conda list --explicit` List packages installed in environment
+`conda list --explicit > spec-file.txt` List packages installed in environment, write to `spec-file.txt`
+
+`conda create --name myenv --file spec-file.txt` Create new environment from `spec-file.txt`
 
 # System
 
