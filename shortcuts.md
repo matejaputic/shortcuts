@@ -68,7 +68,9 @@ git push origin develop
 
 ## Rsync
 
-`rsync -avzP –include ‘*.txt’ –exclude ‘*’ /home/user testuser@10.10.1.10:/data/user` Sync a local directory to a remote directory, with progress bar
+`rsync -avzP –include ‘*.txt’ –exclude ‘*’ /src/dir testuser@10.10.1.10:/dst/dir` Sync a local directory to a remote directory, with progress bar
+
+`rsync -e "ssh-i ~/.ssh/abc_rsa" /src/dir testuser@10.10.1.10:/dst/dir`
 
 More at: https://linuxtechlab.com/start-with-rsync-command-8-rsync-examples/
 
