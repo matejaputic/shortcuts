@@ -60,6 +60,10 @@ git push origin develop
 
 `conda create --name myenv --file spec-file.txt` Create new environment from `spec-file.txt`
 
+# Other
+
+Accidentally pressed `Ctrl+s`: `Ctrl+q` to unlock
+
 # System
 
 ## GPU
