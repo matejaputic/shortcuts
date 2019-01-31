@@ -85,6 +85,7 @@ Ref: https://linuxtechlab.com/start-with-rsync-command-8-rsync-examples/
 ## PyTorch
 
 `tensor.detach()` creates a tensor that shares storage with tensor that does not require grad
+
 `tensor.clone()` creates a copy of tensor that imitates the original tensor's requires_grad field
 
 > You should use detach() when attempting to remove a tensor from a computation graph, and clone as a way to copy the tensor while still keeping the copy as a part of the computation graph it came from.
