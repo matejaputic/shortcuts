@@ -48,6 +48,10 @@ git push origin develop
 
 `` `a`` Jump to location at mark `a`
 
+## Formatting
+
+`gqq` Format entire document
+
 # Conda
 
 `conda info --envs` View a list of environments
