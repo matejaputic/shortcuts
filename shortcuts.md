@@ -97,3 +97,9 @@ Ref: https://linuxtechlab.com/start-with-rsync-command-8-rsync-examples/
 > tensor.clone() makes a copy of tensor. variable.clone() and variable.detach() in 0.3.1 act the same as tensor.clone() and tensor.detach() in 0.4.0.
 
 Ref: https://discuss.pytorch.org/t/clone-and-detach-in-v0-4-0/16861/2
+
+## MySQL
+
+`mysql --host=104.45.132.153 --port=3306 -u wbannotator -p` Connect to server, prompt for password
+
+
