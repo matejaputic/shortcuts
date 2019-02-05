@@ -78,7 +78,7 @@ Accidentally pressed `Ctrl+s`: `Ctrl+q` to unlock
 
 `rsync -avzP –include ‘*.txt’ –exclude ‘*’ /src/dir user@10.10.1.10:/dst/dir` Sync a local directory to a remote directory, with progress bar
 
-`rsync -e "ssh-i ~/.ssh/abc_rsa" /src/dir user@10.10.1.10:/dst/dir` Use an identity file
+`rsync -e "ssh -i ~/.ssh/abc_rsa" /src/dir user@10.10.1.10:/dst/dir` Use an identity file
 
 Ref: https://linuxtechlab.com/start-with-rsync-command-8-rsync-examples/
 
