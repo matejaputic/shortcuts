@@ -38,6 +38,8 @@ git push origin develop
 
 `:vsplit <another file>` Open another file in side-by-side split
 
+`Ctrl + wx` Swap split
+
 `Ctrl + w=` Equalize split
 
 `Ctrl + wo` Close other windows
