@@ -44,6 +44,14 @@ git push origin develop
 
 `Ctrl + wo` Close other windows
 
+## Tabs
+
+`:tabm i` Move tab to position `i`
+
+`:tabm +i` Move tab right `i` positions
+
+`:tabm -i` Move tab left `i` positions
+
 ## Bookmarks
 
 `ma` Set position for mark `a`
