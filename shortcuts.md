@@ -32,6 +32,10 @@ git push origin develop
 
 `Ctrl + y` Move screen down without moving cursor
 
+`Ctrl + o` Jump to last edit location
+
+`Ctrl + i` Jump to next edit location
+
 ## Windows
 
 `Ctrl + w{h,j,k,l}` move focus to {left, lower, upper, right} split
