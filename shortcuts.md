@@ -122,4 +122,10 @@ Ref: https://discuss.pytorch.org/t/clone-and-detach-in-v0-4-0/16861/2
 
 Ref: https://gist.github.com/hofmannsven/9164408
 
+## PyTorch
 
+Ref: https://jhui.github.io/2018/02/09/PyTorch-neural-networks/
+
+> The difference between torch.nn and torch.nn.functional is very subtle. In fact, many torch.nn.functional have a corresponding equivalent in torch.nn. For layers with trainable parameters, we use torch.nn to create the layer. 
+
+> In many code samples, it uses torch.nn.functional for simpler operations that have no trainable parameters or configurable parameters.
