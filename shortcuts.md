@@ -56,6 +56,12 @@ git push origin develop
 
 `:tabm -i` Move tab left `i` positions
 
+## Buffers
+
+`<leader>h` Switch to left buffer
+
+`<leader>l` Switch to right buffer
+
 ## Bookmarks
 
 `ma` Set position for mark `a`
