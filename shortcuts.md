@@ -76,6 +76,8 @@ git push origin develop
 
 `yi"` yank in quotation marks
 
+`<C-R> "` Paste ring buffer into command line
+
 ### Ctrlp
 
 * Press `<F5>` to purge the cache for the current directory to get new files, remove deleted files and apply new ignore options.
