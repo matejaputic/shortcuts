@@ -72,6 +72,10 @@ git push origin develop
 
 `gqq` Format entire document
 
+## Cut and paste
+
+`yi"` yank in quotation marks
+
 ### Ctrlp
 
 * Press `<F5>` to purge the cache for the current directory to get new files, remove deleted files and apply new ignore options.
