@@ -72,6 +72,10 @@ git push origin develop
 
 `gqq` Format entire document
 
+## Editing
+
+`da[` Delete around left bracket
+
 ## Cut and paste
 
 `yi"` yank in quotation marks
