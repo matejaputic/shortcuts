@@ -22,6 +22,8 @@ git push origin develop
 
 `a -t n -d` Attach to session number `n` and disconnect any other screens
 
+`,` Name window
+
 # Vim
 
 ## Moving
