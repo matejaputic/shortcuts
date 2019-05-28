@@ -16,6 +16,52 @@ git push origin develop
 
 `GIT_SSH_COMMAND="ssh -i ~/.ssh/id_rsa_example" <git command>` Specify identity file
 
+# Git-fugitive
+
+The Git index is where you put changes that you want to be included in the next commit.
+
+`<leader>ga` Stage the current file
+
+`<leader>gs` Bring up a summary window vaguely akin to git-status
+
+`<leader>gc` A wrapper around git-commit. A new tab will be used to obtain
+             a commit message. Write and close that window (:wq or |:Gwrite|)
+             to finish the commit. 
+
+`<leader>gt` ???
+
+`<leader>gd` Perform a |vimdiff| against the index version of the current file.
+
+`<leader>ge` |:edit| a |fugitive-object|
+
+`<leader>gr` From the working copy, reset all changes. OR from the index file,
+             add all changes from the current file to the index file. 
+
+`<leader>gw` From the working copy, add all changes from the current file to
+             the index file. OR from the index file, reset all changes to 
+             the working copy.
+
+`<leader>gl` 
+
+`<leader>gp`
+
+`<leader>gm` Rename/relocate file, update buffer
+
+`<leader>gb`
+
+`<leader>gb` 
+
+`<leader>go` 
+
+`<leader>gps` 
+
+`<leader>gpl` 
+
+`[c` In vimdiff, jump to previous changeset
+
+`]c` In vimdiff, jump to next changeset
+
+
 # Tmux
 
 `ls` List active sessions
@@ -69,6 +115,10 @@ git push origin develop
 `ma` Set position for mark `a`
 
 `` `a`` Jump to location at mark `a`
+
+`:bd` Unload the buffer, delete it from the buffer list, losing changes
+
+`:bw` Unload the buffer, delete it from the buffer list, writing changes
 
 ## Formatting
 
