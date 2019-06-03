@@ -209,3 +209,7 @@ Ref: https://jhui.github.io/2018/02/09/PyTorch-neural-networks/
 > The difference between torch.nn and torch.nn.functional is very subtle. In fact, many torch.nn.functional have a corresponding equivalent in torch.nn. For layers with trainable parameters, we use torch.nn to create the layer. 
 
 > In many code samples, it uses torch.nn.functional for simpler operations that have no trainable parameters or configurable parameters.
+
+# Shortcuts
+
+`(pytorch) mputic@whiteboard-server003:.../ImageSets/Main$ find /wbdata/Datasets/output1/ -type f \( -name "*.jpg" \) -printf "%f\n" |sed 's/\.jpg$//1' > all.txt`
