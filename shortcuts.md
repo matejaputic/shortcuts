@@ -212,4 +212,6 @@ Ref: https://jhui.github.io/2018/02/09/PyTorch-neural-networks/
 
 # Shortcuts
 
-`(pytorch) mputic@whiteboard-server003:.../ImageSets/Main$ find /wbdata/Datasets/output1/ -type f \( -name "*.jpg" \) -printf "%f\n" |sed 's/\.jpg$//1' > all.txt`
+`find /wbdata/Datasets/output1/ -type f \( -name "*.jpg" \) -printf "%f\n" |sed 's/\.jpg$//1' > all.txt`
+
+`ffmpeg -r 2 -i '%*.jpg' fullstitch.mp4` Stitch a bunch of jpegs together into a video at 2 fps
