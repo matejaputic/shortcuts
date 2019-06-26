@@ -198,7 +198,7 @@ Ref: https://discuss.pytorch.org/t/clone-and-detach-in-v0-4-0/16861/2
 
 ## MySQL
 
-`mysql --host=104.45.132.153 --port=3306 -u wbannotator -p` Connect to server, prompt for password
+`mysql --host=<ip> --port=<port> -u <username> -p` Connect to server, prompt for password
 
 Ref: https://gist.github.com/hofmannsven/9164408
 
