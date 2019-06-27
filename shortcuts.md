@@ -70,6 +70,8 @@ The Git index is where you put changes that you want to be included in the next 
 
 `,` Name window
 
+`$` Name session
+
 # Vim
 
 ## Moving
