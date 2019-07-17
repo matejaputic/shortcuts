@@ -136,6 +136,10 @@ The Git index is where you put changes that you want to be included in the next 
 
 `<C-R> "` Paste ring buffer into command line
 
+`y(` yank from beginning of sentence
+
+`y)` yank to end of sentence
+
 ### Ctrlp
 
 * Press `<F5>` to purge the cache for the current directory to get new files, remove deleted files and apply new ignore options.
