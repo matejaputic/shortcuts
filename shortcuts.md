@@ -185,6 +185,7 @@ Ref: https://linuxtechlab.com/start-with-rsync-command-8-rsync-examples/
 ## SCP
 
 `scp -i ~/.ssh/abc_rsa` Use identity file `abc_rsa`
+`scp -r` Copy a directory
 
 ## PyTorch
 
