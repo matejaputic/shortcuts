@@ -222,3 +222,5 @@ Ref: https://jhui.github.io/2018/02/09/PyTorch-neural-networks/
 `find /wbdata/Datasets/output1/ -type f \( -name "*.jpg" \) -printf "%f\n" |sed 's/\.jpg$//1' > all.txt`
 
 `ffmpeg -r 2 -i '%*.jpg' fullstitch.mp4` Stitch a bunch of jpegs together into a video at 2 fps
+
+`ssh user@server "echo \"`cat ~/.ssh/id_rsa.pub`\" >> .ssh/authorized_keys"` Copy public key to authorized_keys on remote machine
