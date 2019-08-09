@@ -224,3 +224,5 @@ Ref: https://jhui.github.io/2018/02/09/PyTorch-neural-networks/
 `ffmpeg -r 2 -i '%*.jpg' fullstitch.mp4` Stitch a bunch of jpegs together into a video at 2 fps
 
 `ssh user@server "echo \"`cat ~/.ssh/id_rsa.pub`\" >> .ssh/authorized_keys"` Copy public key to authorized_keys on remote machine
+
+`ps afx` Get a listing of all processes and child processes with full commands
