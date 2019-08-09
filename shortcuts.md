@@ -226,3 +226,5 @@ Ref: https://jhui.github.io/2018/02/09/PyTorch-neural-networks/
 `ssh user@server "echo \"`cat ~/.ssh/id_rsa.pub`\" >> .ssh/authorized_keys"` Copy public key to authorized_keys on remote machine
 
 `ps afx` Get a listing of all processes and child processes with full commands
+
+`usermod -a -G sudo geek` Add existing user to existing group
