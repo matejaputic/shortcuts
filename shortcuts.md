@@ -1,3 +1,7 @@
+# Apt
+
+`apt-cache show <package name>`
+
 # Git
 
 `git checkout -b myfeature develop` Branch off from `develop` branch, switch to branch `myfeature`
