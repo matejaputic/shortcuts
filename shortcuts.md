@@ -1,6 +1,6 @@
 # Apt
 
-`apt-cache show <package name>`
+`apt-cache show <package name>` Get information about a package
 
 # Git
 
