@@ -1,3 +1,7 @@
+# Tar
+
+`tar -c --use-compress-program=pigz -f tar.file dir_to_zip` Use pigz parallel implementation of gzip
+
 # Apt
 
 `apt-cache show <package name>` Get information about a package
