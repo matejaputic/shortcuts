@@ -1,3 +1,7 @@
+# Docker
+
+`docker system prune -a` delete all unused and dangling containers, etc.
+
 # Tar
 
 `tar -c --use-compress-program=pigz -f tar.file dir_to_zip` Use pigz parallel implementation of gzip
