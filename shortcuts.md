@@ -86,6 +86,11 @@ The Git index is where you put changes that you want to be included in the next 
 
 # Vim
 
+# Norm
+
+`%norm cs'"` Run the same command on every line (or selected lines)
+
+
 ## vimrc
 
 Python compatible tabs
