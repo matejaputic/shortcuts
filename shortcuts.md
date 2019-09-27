@@ -1,6 +1,7 @@
 # Docker
 
 `docker system prune -a` delete all unused and dangling containers, etc.
+`docker image prune -a` delete all unused and dangling images
 
 # Tar
 
