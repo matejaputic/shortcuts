@@ -30,6 +30,8 @@ git push origin develop
 
 `GIT_SSH_COMMAND="ssh -i ~/.ssh/id_rsa_example" <git command>` Specify identity file
 
+`git commit -F <changelog>` Commit and use file as commit message
+
 # Git-fugitive
 
 The Git index is where you put changes that you want to be included in the next commit.
