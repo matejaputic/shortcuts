@@ -251,6 +251,10 @@ Ref: https://jhui.github.io/2018/02/09/PyTorch-neural-networks/
 
 > In many code samples, it uses torch.nn.functional for simpler operations that have no trainable parameters or configurable parameters.
 
+# SSH
+
+`ssh -D 8080 -q -C -N <ip>` Open socks proxy to <ip> on port 8080
+
 # Shortcuts
 
 `find /wbdata/Datasets/output1/ -type f \( -name "*.jpg" \) -printf "%f\n" |sed 's/\.jpg$//1' > all.txt`
