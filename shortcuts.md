@@ -1,3 +1,13 @@
+# Kubernetes
+
+`kubectl -n kubeflow get pods` List pods in namespace `kubeflow`
+
+`kubectl -n kubeflow logs <podname>` Show log of <podname> in namespace `kubeflow`
+  
+`kubectl -n kubeflow delete <podname>` Delete pod <podname> in namespace `kubeflow`
+  
+`kubectl -n kubeflow delete pod <podname>` Delete <podname> in namespace `kubeflow`
+  
 # Docker
 
 `docker system prune -a` delete all unused and dangling containers, etc.
